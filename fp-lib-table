@@ -5,4 +5,5 @@
   (lib (name MX_Only)(type KiCad)(uri ${KIPRJMOD}/MX_Alps_Hybrid/MX_Only.pretty)(options "")(descr ""))
   (lib (name random-keyboard-parts)(type KiCad)(uri ${KIPRJMOD}/random-keyboard-parts.pretty)(options "")(descr ""))
   (lib (name dev-68)(type KiCad)(uri /home/alex/workspace/dev-68/dev-68.pretty)(options "")(descr ""))
+  (lib (name Socket_BeagleBone_Black)(type KiCad)(uri ${KIPRJMOD}/Socket_BeagleBone_Black.pretty)(options "")(descr ""))
 )
