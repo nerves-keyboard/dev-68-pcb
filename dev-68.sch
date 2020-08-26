@@ -25,41 +25,41 @@ F 3 "~" H 4700 9400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 5000 9200 1    50   Input ~ 0
-COL0
+COL_0
 Text GLabel 4900 9200 1    50   Input ~ 0
-COL1
+COL_1
 Text GLabel 4800 9200 1    50   Input ~ 0
-COL2
+COL_2
 Text GLabel 4700 9200 1    50   Input ~ 0
-COL3
+COL_3
 Text GLabel 4600 9200 1    50   Input ~ 0
-COL4
+COL_4
 Text GLabel 4500 9200 1    50   Input ~ 0
-COL5
+COL_5
 Text GLabel 4400 9200 1    50   Input ~ 0
-COL6
+COL_6
 Text GLabel 4300 9200 1    50   Input ~ 0
-COL7
+COL_7
 Text GLabel 4000 9200 1    50   Input ~ 0
-ROW0
+ROW_0
 Text GLabel 3900 9200 1    50   Input ~ 0
-ROW1
+ROW_1
 Text GLabel 3800 9200 1    50   Input ~ 0
-ROW2
+ROW_2
 Text GLabel 3700 9200 1    50   Input ~ 0
-ROW3
+ROW_3
 Text GLabel 3600 9200 1    50   Input ~ 0
-ROW4
+ROW_4
 Text GLabel 3500 9200 1    50   Input ~ 0
-ROW5
+ROW_5
 Text GLabel 3400 9200 1    50   Input ~ 0
-ROW6
+ROW_6
 Text GLabel 3300 9200 1    50   Input ~ 0
-ROW7
+ROW_7
 Text GLabel 3200 9200 1    50   Input ~ 0
-ROW8
+ROW_8
 Text GLabel 3100 9200 1    50   Input ~ 0
-ROW9
+ROW_9
 $Comp
 L Device:D_Small D63
 U 1 1 5F7D46A5
@@ -336,39 +336,39 @@ F 3 "" H 4375 5825 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2050 7650 0    50   Input ~ 0
-ROW8
+ROW_8
 Text GLabel 2050 6950 0    50   Input ~ 0
-ROW7
+ROW_7
 Text GLabel 2050 6250 0    50   Input ~ 0
-ROW6
+ROW_6
 Text GLabel 2050 5550 0    50   Input ~ 0
-ROW5
+ROW_5
 Text GLabel 2050 4850 0    50   Input ~ 0
-ROW4
+ROW_4
 Text GLabel 2050 4150 0    50   Input ~ 0
-ROW3
+ROW_3
 Text GLabel 2050 3450 0    50   Input ~ 0
-ROW2
+ROW_2
 Text GLabel 2050 2750 0    50   Input ~ 0
-ROW1
+ROW_1
 Text GLabel 2050 2050 0    50   Input ~ 0
-ROW0
+ROW_0
 Text GLabel 6200 1100 1    50   Input ~ 0
-COL7
+COL_7
 Text GLabel 5700 1100 1    50   Input ~ 0
-COL6
+COL_6
 Text GLabel 5200 1100 1    50   Input ~ 0
-COL5
+COL_5
 Text GLabel 4700 1100 1    50   Input ~ 0
-COL4
+COL_4
 Text GLabel 4200 1100 1    50   Input ~ 0
-COL3
+COL_3
 Text GLabel 3700 1100 1    50   Input ~ 0
-COL2
+COL_2
 Text GLabel 3200 1100 1    50   Input ~ 0
-COL1
+COL_1
 Text GLabel 2700 1100 1    50   Input ~ 0
-COL0
+COL_0
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX10
 U 1 1 5F3F942D
@@ -1597,7 +1597,7 @@ F 3 "~" V 5950 8250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 2050 8350 0    50   Input ~ 0
-ROW9
+ROW_9
 Wire Wire Line
 	2050 2750 2450 2750
 Connection ~ 2450 2750
@@ -2264,17 +2264,6 @@ F 2 "Diode_SMD:D_1206_3216Metric" V 5950 4050 50  0001 C CNN
 F 3 "~" V 5950 4050 50  0001 C CNN
 	1    5950 4050
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Driver_LED:IS31FL3733-TQ U1
-U 1 1 5F51D821
-P -6550 17300
-F 0 "U1" H -6550 15611 50  0000 C CNN
-F 1 "IS31FL3733-TQ" H -6550 15520 50  0000 C CNN
-F 2 "Package_QFP:TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm" H -6550 17300 50  0001 C CNN
-F 3 "http://www.issi.com/WW/pdf/IS31FL3733.pdf" H -6550 17300 50  0001 C CNN
-	1    -6550 17300
-	1    0    0    -1  
 $EndComp
 $Comp
 L dev-68:LED_RGB_BRG D101
@@ -4941,105 +4930,105 @@ Connection ~ 10750 17450
 $Comp
 L Driver_LED:IS31FL3733-TQ U2
 U 1 1 615E0AD4
-P 15000 17300
-F 0 "U2" H 15000 15611 50  0000 C CNN
-F 1 "IS31FL3733-TQ" H 15000 15520 50  0000 C CNN
-F 2 "Package_QFP:TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm" H 15000 17300 50  0001 C CNN
-F 3 "http://www.issi.com/WW/pdf/IS31FL3733.pdf" H 15000 17300 50  0001 C CNN
-	1    15000 17300
+P 13900 17350
+F 0 "U2" H 13900 15661 50  0000 C CNN
+F 1 "IS31FL3733-TQ" H 13900 15570 50  0000 C CNN
+F 2 "Package_QFP:TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm" H 13900 17350 50  0001 C CNN
+F 3 "http://www.issi.com/WW/pdf/IS31FL3733.pdf" H 13900 17350 50  0001 C CNN
+	1    13900 17350
 	1    0    0    -1  
 $EndComp
-Text GLabel -6900 12650 2    50   Input ~ 0
+Text GLabel -5650 12400 2    50   Input ~ 0
 LED_A_COL_0
-Text GLabel -6900 12750 2    50   Input ~ 0
+Text GLabel -5650 12500 2    50   Input ~ 0
 LED_A_COL_1
-Text GLabel -6900 12850 2    50   Input ~ 0
+Text GLabel -5650 12600 2    50   Input ~ 0
 LED_A_COL_2
-Text GLabel -6900 12950 2    50   Input ~ 0
+Text GLabel -5650 12700 2    50   Input ~ 0
 LED_A_COL_3
-Text GLabel -6900 13050 2    50   Input ~ 0
+Text GLabel -5650 12800 2    50   Input ~ 0
 LED_A_COL_4
-Text GLabel -6900 13150 2    50   Input ~ 0
+Text GLabel -5650 12900 2    50   Input ~ 0
 LED_A_COL_5
-Text GLabel -6900 13250 2    50   Input ~ 0
+Text GLabel -5650 13000 2    50   Input ~ 0
 LED_A_COL_6
-Text GLabel -6900 13350 2    50   Input ~ 0
+Text GLabel -5650 13100 2    50   Input ~ 0
 LED_A_COL_7
-Text GLabel -6900 13450 2    50   Input ~ 0
+Text GLabel -5650 13200 2    50   Input ~ 0
 LED_A_COL_8
-Text GLabel -6900 13550 2    50   Input ~ 0
+Text GLabel -5650 13300 2    50   Input ~ 0
 LED_A_COL_9
-Text GLabel -6900 13650 2    50   Input ~ 0
+Text GLabel -5650 13400 2    50   Input ~ 0
 LED_A_COL_10
-Text GLabel -6900 13750 2    50   Input ~ 0
+Text GLabel -5650 13500 2    50   Input ~ 0
 LED_A_COL_11
-Text GLabel -6900 13850 2    50   Input ~ 0
+Text GLabel -5650 13600 2    50   Input ~ 0
 LED_A_COL_12
-Text GLabel -6900 13950 2    50   Input ~ 0
+Text GLabel -5650 13700 2    50   Input ~ 0
 LED_A_COL_13
-Text GLabel -6900 14050 2    50   Input ~ 0
+Text GLabel -5650 13800 2    50   Input ~ 0
 LED_A_COL_14
-Text GLabel -6900 14550 2    50   Input ~ 0
+Text GLabel -5650 14300 2    50   Input ~ 0
 LED_A_ROW_0
-Text GLabel -6900 14650 2    50   Input ~ 0
+Text GLabel -5650 14400 2    50   Input ~ 0
 LED_A_ROW_1
-Text GLabel -6900 14750 2    50   Input ~ 0
+Text GLabel -5650 14500 2    50   Input ~ 0
 LED_A_ROW_2
-Text GLabel -6900 14850 2    50   Input ~ 0
+Text GLabel -5650 14600 2    50   Input ~ 0
 LED_A_ROW_3
-Text GLabel -6900 14950 2    50   Input ~ 0
+Text GLabel -5650 14700 2    50   Input ~ 0
 LED_A_ROW_4
-Text GLabel -6900 15050 2    50   Input ~ 0
+Text GLabel -5650 14800 2    50   Input ~ 0
 LED_A_ROW_5
-Text GLabel -6900 15150 2    50   Input ~ 0
+Text GLabel -5650 14900 2    50   Input ~ 0
 LED_A_ROW_6
-Text GLabel -6900 15250 2    50   Input ~ 0
+Text GLabel -5650 15000 2    50   Input ~ 0
 LED_A_ROW_7
-Text GLabel 14650 14550 2    50   Input ~ 0
+Text GLabel 14500 14350 2    50   Input ~ 0
 LED_B_ROW_0
-Text GLabel 14650 14650 2    50   Input ~ 0
+Text GLabel 14500 14450 2    50   Input ~ 0
 LED_B_ROW_1
-Text GLabel 14650 14750 2    50   Input ~ 0
+Text GLabel 14500 14550 2    50   Input ~ 0
 LED_B_ROW_2
-Text GLabel 14650 14850 2    50   Input ~ 0
+Text GLabel 14500 14650 2    50   Input ~ 0
 LED_B_ROW_3
-Text GLabel 14650 14950 2    50   Input ~ 0
+Text GLabel 14500 14750 2    50   Input ~ 0
 LED_B_ROW_4
-Text GLabel 14650 15050 2    50   Input ~ 0
+Text GLabel 14500 14850 2    50   Input ~ 0
 LED_B_ROW_5
-Text GLabel 14650 15150 2    50   Input ~ 0
+Text GLabel 14500 14950 2    50   Input ~ 0
 LED_B_ROW_6
-Text GLabel 14650 15250 2    50   Input ~ 0
+Text GLabel 14500 15050 2    50   Input ~ 0
 LED_B_ROW_7
-Text GLabel 14650 12650 2    50   Input ~ 0
+Text GLabel 14500 12450 2    50   Input ~ 0
 LED_B_COL_0
-Text GLabel 14650 12750 2    50   Input ~ 0
+Text GLabel 14500 12550 2    50   Input ~ 0
 LED_B_COL_1
-Text GLabel 14650 12850 2    50   Input ~ 0
+Text GLabel 14500 12650 2    50   Input ~ 0
 LED_B_COL_2
-Text GLabel 14650 12950 2    50   Input ~ 0
+Text GLabel 14500 12750 2    50   Input ~ 0
 LED_B_COL_3
-Text GLabel 14650 13050 2    50   Input ~ 0
+Text GLabel 14500 12850 2    50   Input ~ 0
 LED_B_COL_4
-Text GLabel 14650 13150 2    50   Input ~ 0
+Text GLabel 14500 12950 2    50   Input ~ 0
 LED_B_COL_5
-Text GLabel 14650 13250 2    50   Input ~ 0
+Text GLabel 14500 13050 2    50   Input ~ 0
 LED_B_COL_6
-Text GLabel 14650 13350 2    50   Input ~ 0
+Text GLabel 14500 13150 2    50   Input ~ 0
 LED_B_COL_7
-Text GLabel 14650 14050 2    50   Input ~ 0
+Text GLabel 14500 13850 2    50   Input ~ 0
 LED_B_COL_14
-Text GLabel 14650 13950 2    50   Input ~ 0
+Text GLabel 14500 13750 2    50   Input ~ 0
 LED_B_COL_13
-Text GLabel 14650 13850 2    50   Input ~ 0
+Text GLabel 14500 13650 2    50   Input ~ 0
 LED_B_COL_12
-Text GLabel 14650 13750 2    50   Input ~ 0
+Text GLabel 14500 13550 2    50   Input ~ 0
 LED_B_COL_11
-Text GLabel 14650 13650 2    50   Input ~ 0
+Text GLabel 14500 13450 2    50   Input ~ 0
 LED_B_COL_10
-Text GLabel 14650 13550 2    50   Input ~ 0
+Text GLabel 14500 13350 2    50   Input ~ 0
 LED_B_COL_9
-Text GLabel 14650 13450 2    50   Input ~ 0
+Text GLabel 14500 13250 2    50   Input ~ 0
 LED_B_COL_8
 Wire Wire Line
 	11750 14950 11750 17050
@@ -5078,47 +5067,360 @@ Wire Wire Line
 Wire Wire Line
 	-1750 18000 1250 18000
 $Comp
-L Connector_Generic:Conn_01x15 J5
+L Connector_Generic:Conn_02x16_Odd_Even J5
 U 1 1 5F789B73
-P 14450 13350
-F 0 "J5" H 14368 14267 50  0000 C CNN
-F 1 "RGB LED Matrix B Columns" H 14368 14176 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 14450 13350 50  0001 C CNN
-F 3 "~" H 14450 13350 50  0001 C CNN
-	1    14450 13350
+P 14300 13150
+F 0 "J5" H 14300 14100 50  0000 C CNN
+F 1 "RGB LED Matrix B Columns" H 14300 14000 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical" H 14300 13150 50  0001 C CNN
+F 3 "~" H 14300 13150 50  0001 C CNN
+	1    14300 13150
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J6
+L Connector_Generic:Conn_02x12_Odd_Even J6
 U 1 1 5FBA0A26
-P 14450 14850
-F 0 "J6" H 14368 15367 50  0000 C CNN
-F 1 "RGB LED Matrix B Rows" H 14368 15276 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 14450 14850 50  0001 C CNN
-F 3 "~" H 14450 14850 50  0001 C CNN
-	1    14450 14850
+P 14300 14850
+F 0 "J6" H 14300 15600 50  0000 C CNN
+F 1 "RGB LED Matrix B Rows" H 14300 15500 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical" H 14300 14850 50  0001 C CNN
+F 3 "~" H 14300 14850 50  0001 C CNN
+	1    14300 14850
+	-1   0    0    -1  
+$EndComp
+Text GLabel 14600 16150 2    50   Input ~ 0
+B_CS3
+Text GLabel 14600 16250 2    50   Input ~ 0
+B_CS4
+Text GLabel 14600 16350 2    50   Input ~ 0
+B_CS5
+Text GLabel 14600 16450 2    50   Input ~ 0
+B_CS6
+Text GLabel 14600 16550 2    50   Input ~ 0
+B_CS7
+Text GLabel 14600 16650 2    50   Input ~ 0
+B_CS8
+Text GLabel 14600 16750 2    50   Input ~ 0
+B_CS9
+Text GLabel 14600 16850 2    50   Input ~ 0
+B_CS10
+Text GLabel 14600 16950 2    50   Input ~ 0
+B_CS11
+Text GLabel 14600 17050 2    50   Input ~ 0
+B_CS12
+Text GLabel 14600 17150 2    50   Input ~ 0
+B_CS13
+Text GLabel 14600 17250 2    50   Input ~ 0
+B_CS14
+Text GLabel 14600 17350 2    50   Input ~ 0
+B_CS15
+Text GLabel 14600 17450 2    50   Input ~ 0
+B_CS16
+Text GLabel 14600 17650 2    50   Input ~ 0
+B_SW1
+Text GLabel 14600 16050 2    50   Input ~ 0
+B_CS2
+Text GLabel 14600 15950 2    50   Input ~ 0
+B_CS1
+Text GLabel 14600 17750 2    50   Input ~ 0
+B_SW2
+Text GLabel 14600 17850 2    50   Input ~ 0
+B_SW3
+Text GLabel 14600 17950 2    50   Input ~ 0
+B_SW4
+Text GLabel 14600 18050 2    50   Input ~ 0
+B_SW5
+Text GLabel 14600 18150 2    50   Input ~ 0
+B_SW6
+Text GLabel 14600 18250 2    50   Input ~ 0
+B_SW7
+Text GLabel 14600 18350 2    50   Input ~ 0
+B_SW8
+Text GLabel 14600 18450 2    50   Input ~ 0
+B_SW9
+Text GLabel 14600 18550 2    50   Input ~ 0
+B_SW10
+Text GLabel 14600 18650 2    50   Input ~ 0
+B_SW11
+Text GLabel 14600 18750 2    50   Input ~ 0
+B_SW12
+Text GLabel 14000 12650 0    50   Input ~ 0
+B_CS3
+Text GLabel 14000 12750 0    50   Input ~ 0
+B_CS4
+Text GLabel 14000 12850 0    50   Input ~ 0
+B_CS5
+Text GLabel 14000 12950 0    50   Input ~ 0
+B_CS6
+Text GLabel 14000 13050 0    50   Input ~ 0
+B_CS7
+Text GLabel 14000 13150 0    50   Input ~ 0
+B_CS8
+Text GLabel 14000 13250 0    50   Input ~ 0
+B_CS9
+Text GLabel 14000 13350 0    50   Input ~ 0
+B_CS10
+Text GLabel 14000 13450 0    50   Input ~ 0
+B_CS11
+Text GLabel 14000 13550 0    50   Input ~ 0
+B_CS12
+Text GLabel 14000 13650 0    50   Input ~ 0
+B_CS13
+Text GLabel 14000 13750 0    50   Input ~ 0
+B_CS14
+Text GLabel 14000 13850 0    50   Input ~ 0
+B_CS15
+Text GLabel 14000 13950 0    50   Input ~ 0
+B_CS16
+Text GLabel 14000 12550 0    50   Input ~ 0
+B_CS2
+Text GLabel 14000 12450 0    50   Input ~ 0
+B_CS1
+Text GLabel 14000 14350 0    50   Input ~ 0
+B_SW1
+Text GLabel 14000 14450 0    50   Input ~ 0
+B_SW2
+Text GLabel 14000 14550 0    50   Input ~ 0
+B_SW3
+Text GLabel 14000 14650 0    50   Input ~ 0
+B_SW4
+Text GLabel 14000 14750 0    50   Input ~ 0
+B_SW5
+Text GLabel 14000 14850 0    50   Input ~ 0
+B_SW6
+Text GLabel 14000 14950 0    50   Input ~ 0
+B_SW7
+Text GLabel 14000 15050 0    50   Input ~ 0
+B_SW8
+Text GLabel 14000 15150 0    50   Input ~ 0
+B_SW9
+Text GLabel 14000 15250 0    50   Input ~ 0
+B_SW10
+Text GLabel 14000 15350 0    50   Input ~ 0
+B_SW11
+Text GLabel 14000 15450 0    50   Input ~ 0
+B_SW12
+$Comp
+L Driver_LED:IS31FL3733-TQ U1
+U 1 1 607CC633
+P -6250 17300
+F 0 "U1" H -6250 15611 50  0000 C CNN
+F 1 "IS31FL3733-TQ" H -6250 15520 50  0000 C CNN
+F 2 "Package_QFP:TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm" H -6250 17300 50  0001 C CNN
+F 3 "http://www.issi.com/WW/pdf/IS31FL3733.pdf" H -6250 17300 50  0001 C CNN
+	1    -6250 17300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x16_Odd_Even J3
+U 1 1 607CC650
+P -5850 13100
+F 0 "J3" H -5850 14050 50  0000 C CNN
+F 1 "RGB LED Matrix A Columns" H -5850 13950 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical" H -5850 13100 50  0001 C CNN
+F 3 "~" H -5850 13100 50  0001 C CNN
+	1    -5850 13100
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x15 J3
-U 1 1 5FFBDDE9
-P -7100 13350
-F 0 "J3" H -7182 14267 50  0000 C CNN
-F 1 "RGB LED Matrix A Columns" H -7182 14176 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H -7100 13350 50  0001 C CNN
-F 3 "~" H -7100 13350 50  0001 C CNN
-	1    -7100 13350
+L Connector_Generic:Conn_02x12_Odd_Even J4
+U 1 1 607CC656
+P -5850 14800
+F 0 "J4" H -5850 15550 50  0000 C CNN
+F 1 "RGB LED Matrix A Rows" H -5850 15450 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical" H -5850 14800 50  0001 C CNN
+F 3 "~" H -5850 14800 50  0001 C CNN
+	1    -5850 14800
 	-1   0    0    -1  
 $EndComp
+Text GLabel -5550 16100 2    50   Input ~ 0
+A_CS3
+Text GLabel -5550 16200 2    50   Input ~ 0
+A_CS4
+Text GLabel -5550 16300 2    50   Input ~ 0
+A_CS5
+Text GLabel -5550 16400 2    50   Input ~ 0
+A_CS6
+Text GLabel -5550 16500 2    50   Input ~ 0
+A_CS7
+Text GLabel -5550 16600 2    50   Input ~ 0
+A_CS8
+Text GLabel -5550 16700 2    50   Input ~ 0
+A_CS9
+Text GLabel -5550 16800 2    50   Input ~ 0
+A_CS10
+Text GLabel -5550 16900 2    50   Input ~ 0
+A_CS11
+Text GLabel -5550 17000 2    50   Input ~ 0
+A_CS12
+Text GLabel -5550 17100 2    50   Input ~ 0
+A_CS13
+Text GLabel -5550 17200 2    50   Input ~ 0
+A_CS14
+Text GLabel -5550 17300 2    50   Input ~ 0
+A_CS15
+Text GLabel -5550 17400 2    50   Input ~ 0
+A_CS16
+Text GLabel -5550 17600 2    50   Input ~ 0
+A_SW1
+Text GLabel -5550 16000 2    50   Input ~ 0
+A_CS2
+Text GLabel -5550 15900 2    50   Input ~ 0
+A_CS1
+Text GLabel -5550 17700 2    50   Input ~ 0
+A_SW2
+Text GLabel -5550 17800 2    50   Input ~ 0
+A_SW3
+Text GLabel -5550 17900 2    50   Input ~ 0
+A_SW4
+Text GLabel -5550 18000 2    50   Input ~ 0
+A_SW5
+Text GLabel -5550 18100 2    50   Input ~ 0
+A_SW6
+Text GLabel -5550 18200 2    50   Input ~ 0
+A_SW7
+Text GLabel -5550 18300 2    50   Input ~ 0
+A_SW8
+Text GLabel -5550 18400 2    50   Input ~ 0
+A_SW9
+Text GLabel -5550 18500 2    50   Input ~ 0
+A_SW10
+Text GLabel -5550 18600 2    50   Input ~ 0
+A_SW11
+Text GLabel -5550 18700 2    50   Input ~ 0
+A_SW12
+Text GLabel -6150 12600 0    50   Input ~ 0
+A_CS3
+Text GLabel -6150 12700 0    50   Input ~ 0
+A_CS4
+Text GLabel -6150 12800 0    50   Input ~ 0
+A_CS5
+Text GLabel -6150 12900 0    50   Input ~ 0
+A_CS6
+Text GLabel -6150 13000 0    50   Input ~ 0
+A_CS7
+Text GLabel -6150 13100 0    50   Input ~ 0
+A_CS8
+Text GLabel -6150 13200 0    50   Input ~ 0
+A_CS9
+Text GLabel -6150 13300 0    50   Input ~ 0
+A_CS10
+Text GLabel -6150 13400 0    50   Input ~ 0
+A_CS11
+Text GLabel -6150 13500 0    50   Input ~ 0
+A_CS12
+Text GLabel -6150 13600 0    50   Input ~ 0
+A_CS13
+Text GLabel -6150 13700 0    50   Input ~ 0
+A_CS14
+Text GLabel -6150 13800 0    50   Input ~ 0
+A_CS15
+Text GLabel -6150 13900 0    50   Input ~ 0
+A_CS16
+Text GLabel -6150 12500 0    50   Input ~ 0
+A_CS2
+Text GLabel -6150 12400 0    50   Input ~ 0
+A_CS1
+Text GLabel -6150 14300 0    50   Input ~ 0
+A_SW1
+Text GLabel -6150 14400 0    50   Input ~ 0
+A_SW2
+Text GLabel -6150 14500 0    50   Input ~ 0
+A_SW3
+Text GLabel -6150 14600 0    50   Input ~ 0
+A_SW4
+Text GLabel -6150 14700 0    50   Input ~ 0
+A_SW5
+Text GLabel -6150 14800 0    50   Input ~ 0
+A_SW6
+Text GLabel -6150 14900 0    50   Input ~ 0
+A_SW7
+Text GLabel -6150 15000 0    50   Input ~ 0
+A_SW8
+Text GLabel -6150 15100 0    50   Input ~ 0
+A_SW9
+Text GLabel -6150 15200 0    50   Input ~ 0
+A_SW10
+Text GLabel -6150 15300 0    50   Input ~ 0
+A_SW11
+Text GLabel -6150 15400 0    50   Input ~ 0
+A_SW12
+NoConn ~ -5650 13900
+NoConn ~ -5650 15100
+NoConn ~ -5650 15200
+NoConn ~ -5650 15300
+NoConn ~ -5650 15400
+NoConn ~ 14500 13950
+NoConn ~ 14500 15150
+NoConn ~ 14500 15250
+NoConn ~ 14500 15350
+NoConn ~ 14500 15450
+NoConn ~ -6350 15700
+NoConn ~ -6250 15700
+NoConn ~ -6150 15700
+NoConn ~ -6050 15700
+NoConn ~ -6950 15900
+NoConn ~ -6950 16500
+NoConn ~ -6950 16700
+NoConn ~ -6950 16800
+NoConn ~ -6950 16900
+NoConn ~ -6950 17000
+NoConn ~ -6350 18900
+NoConn ~ 14100 15750
+NoConn ~ 14000 15750
+NoConn ~ 13900 15750
+NoConn ~ 13800 15750
+NoConn ~ 13200 15950
+NoConn ~ 13200 16550
+NoConn ~ 13200 16750
+NoConn ~ 13200 16850
+NoConn ~ 13200 16950
+NoConn ~ 13200 17050
+NoConn ~ 13800 18950
 $Comp
-L Connector_Generic:Conn_01x08 J4
-U 1 1 5FFBDDEF
-P -7100 14850
-F 0 "J4" H -7182 15367 50  0000 C CNN
-F 1 "RGB LED Matrix A Rows" H -7182 15276 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H -7100 14850 50  0001 C CNN
-F 3 "~" H -7100 14850 50  0001 C CNN
-	1    -7100 14850
-	-1   0    0    -1  
+L Connector_Generic:Conn_01x04 J7
+U 1 1 6452F87C
+P 9700 11050
+F 0 "J7" H 9780 11042 50  0000 L CNN
+F 1 "LED Drivers" H 9780 10951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9700 11050 50  0001 C CNN
+F 3 "~" H 9700 11050 50  0001 C CNN
+	1    9700 11050
+	1    0    0    -1  
+$EndComp
+Text GLabel 9500 10950 0    50   Input ~ 0
+SDA
+Text GLabel 9500 11050 0    50   Input ~ 0
+SCL
+Text GLabel 9500 11150 0    50   Input ~ 0
+INTB
+Text GLabel 9500 11250 0    50   Input ~ 0
+SDB
+Text GLabel 13200 16150 0    50   Input ~ 0
+SDA
+Text GLabel 13200 16250 0    50   Input ~ 0
+SCL
+Text GLabel 13200 16350 0    50   Input ~ 0
+INTB
+Text GLabel 13200 16450 0    50   Input ~ 0
+SDB
+Text GLabel -6950 16100 0    50   Input ~ 0
+SDA
+Text GLabel -6950 16200 0    50   Input ~ 0
+SCL
+Text GLabel -6950 16300 0    50   Input ~ 0
+INTB
+Text GLabel -6950 16400 0    50   Input ~ 0
+SDB
+$Comp
+L Connector_Generic:Conn_01x04 J8
+U 1 1 5F6951D4
+P 9700 10300
+F 0 "J8" H 9780 10292 50  0000 L CNN
+F 1 "Power" H 9780 10201 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9700 10300 50  0001 C CNN
+F 3 "~" H 9700 10300 50  0001 C CNN
+	1    9700 10300
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
