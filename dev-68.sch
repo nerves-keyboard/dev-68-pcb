@@ -5364,7 +5364,7 @@ F 1 "LED Drivers" H -7170 7401 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H -7250 7500 50  0001 C CNN
 F 3 "~" H -7250 7500 50  0001 C CNN
 	1    -7250 7500
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Text GLabel -5800 7300 2    50   Input ~ 0
 SDA
